@@ -14,7 +14,30 @@ p.image {
 	text-align: center;
 }
 
-p.text {
-	text-align: center;	
+tr {
+	text-align: center;
 	font-style: italic;
+	background-color: #7f8000;
+}
+
+td:hover {
+	background-color: #ffff33;
+}
+
+td {
+	border: 5px solid black;
+	padding: 5px;
+}
+
+tr#title {
+	font-style: normal;
+	text-align: center;
+	font-weight: bold;
+	font-size: 150%;
+	background-color: #ffff33;
+}
+
+
+table {
+	border-spacing: 0px;
 }
